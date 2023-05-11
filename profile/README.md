@@ -1,3 +1,3 @@
 ## Resolve
 
-We are a small group of NLP researchers and engineers working to build a smarter dictionary using AI. 
+A small group of NLP researchers and engineers working to build a smarter dictionary using AI. 
