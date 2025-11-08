@@ -40,8 +40,3 @@ body:
       placeholder: |
         - [ ] #<issue-id> Subtask 1
         - [ ] #<issue-id> Subtask 2
-  - type: markdown
-    attributes:
-      value: |
-        **Note:** New issues will start in the **Backlog** view by default.  
-        You can move them to **Todo** when they’re ready for active work.

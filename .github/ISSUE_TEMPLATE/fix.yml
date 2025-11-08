@@ -1,5 +1,5 @@
 name: Fix / Task
-description: A concrete, actionable unit of work (ideal as a subtask of a Feature)
+description: A concrete, actionable unit of work
 title: "fix: <concise fix/task name>"
 labels: ["type:fix"]
 assignees: []
