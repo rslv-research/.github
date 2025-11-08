@@ -8,25 +8,19 @@ body:
     id: overview
     attributes:
       label: Overview
-      description: What problem are we solving? Why now? Link to any Notion doc/spec.
+      description: What problem are we solving? Link to any Notion doc/spec.
       placeholder: >
         Context, goals, and links to specs or designs.
     validations:
       required: true
   - type: textarea
-    id: acceptance
+    id: goals
     attributes:
-      label: Acceptance criteria
-      description: Concrete "done means" bullets.
+      label: Goals
+      description: Concrete goals; what behavior or results do we expect when this is done?
       placeholder: |
-        - [ ] AC1
-        - [ ] AC2
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: Dependencies / Risks
-      placeholder: |
-        - Blocks/blocked by issues (#123), external services, timing, etc.
+        - [ ] Goal 1
+        - [ ] Goal 2
   - type: dropdown
     id: priority
     attributes:
@@ -46,11 +40,8 @@ body:
       placeholder: |
         - [ ] #<issue-id> Subtask 1
         - [ ] #<issue-id> Subtask 2
-  - type: checkboxes
-    id: project_placement
+  - type: markdown
     attributes:
-      label: Project placement
-      description: New items start in the Backlog view by default. You can move to Todo when ready.
-      options:
-        - label: I understand new issues will appear in Backlog (default).
-          required: true
+      value: |
+        **Note:** New issues will start in the **Backlog** view by default.  
+        You can move them to **Todo** when they’re ready for active work.
